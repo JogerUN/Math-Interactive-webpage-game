@@ -1,0 +1,6 @@
+{
+  "name": "MathQuest: La Aventura del Cálculo",
+  "description": "Bitácora académica interactiva de cálculo diferencial con mecánicas de videojuego RPG, mundos temáticos, misiones, recompensas y simulaciones gráficas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

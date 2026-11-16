@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: "Cinzel", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-quest-gold: #f59e0b;
+  --color-quest-gold-light: #fbbf24;
+  --color-quest-purple: #8b5cf6;
+  --color-quest-purple-dark: #6d28d9;
+  --color-quest-navy: #0f172a;
+  --color-quest-night: #060913;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #090e1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Math notation aesthetic */
+.math-formula {
+  font-family: "JetBrains Mono", monospace;
+  letter-spacing: -0.02em;
+}
+
+/* Print styling for Bitácora Export */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .bitacora-sheet {
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+    color: black !important;
+    background: white !important;
+  }
+}

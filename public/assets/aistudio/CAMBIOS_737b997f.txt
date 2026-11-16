@@ -1,0 +1,181 @@
+Eres un experto en diseño de inteface de usuario UI y UX y debes actuar como el ingeniero de webpage / software, que debe atender a todas las solicitudes de cambio en diseño y lógica que te haga. 
+Necesito que en la sección de 
+Mapa necesito que modifiques 
+CARTOGRAFÍA DEL CÁLCULO DIFERENCIAL
+Mapa de Aventura
+Explora la senda matemática que conecta los 6 reinos del análisis infinitesimal.
+
+Poder Analítico:
+0 XP
+·
+Aprendiz de Descartes
+Ruta de Aprendizaje Progresivo
+1 de 6 Reinos Desbloqueados
+01
+Valle de las Funciones
+Dominio, Rango y Transformaciones
+
+0 / 3
+Misiones
+Cañón de los Límites
+Comportamiento Local e Indeterminaciones
+
+200 XP
+Requerido
+Abismo de la Continuidad
+Flujo Ininterrumpido y Teoremas Fundamentales
+
+450 XP
+Requerido
+Torres de las Asíntotas
+Líneas Guía del Infinito
+
+750 XP
+Requerido
+Montaña de las Derivadas
+Razón de Cambio Instantánea y Reglas de Derivación
+
+1100 XP
+Requerido
+Fortaleza de las Aplicaciones
+Optimización, Concavidad y L'Hôpital
+
+1600 XP
+Requerido
+
+necesito que cambies la información de los 6 reinos para 5 temas que se van a cubir:
+01 valle de las funciones pase a ser =  valle de la Continuidad en un punto ( tema de matemacia a cubrir Repaso breve de continuidad.
+Funciones a trozos y parámetros., Varios ejercicios del tipo “halle k”, Práctica guiada y trabajo en grupo.)
+02 cañon de los limites pase a ser = cañon de la Derivada por definición,
+tangentes y velocidad( tema de matemacia a cubrir son Clase Razón de cambio y definición de derivada
+03 abismo de la continuidad pase a ser =abismo de las Reglas de derivación (  tema de matemacica a cubrir Regla del producto. Regla del cociente. Derivadas trigonométricas. Ejercicios integradores y práctica en grupos.)
+04 Torres de las Asíntota pase a ser = torres de la Regla de la cadena y derivación implícita( tema de matemacia a cubrir son Reconocer funciones compuestas, Regla de la cadena paso a paso ,Cadena con potencias, exponenciales y trigonométricas, Mezcla con producto y cociente, Derivación implícita.)
+05 Montaña de las Derivadas a se = montaña de  las Inversas y logaritmos ( tema de matemacia a cubrir funciones trigonométricas inversas, exponenciales y logarítmicas, además de derivación logarítmica)
+06 Fortaleza de las Aplicaciones = elimina toda la información, ese reino ya no va a existir 
+
+Dentro del nombre del primer reino ( valle de la Continuidad en un punto) las misiones 1,2,3 corresponderán a los ejercicios que te dejare a continuación
+ 1) primer ejercicio = $f(x) = \begin{cases} \dfrac{1}{x + 2} & \text{si } x \neq -2 \\ 1 & \text{si } x = -2 \end{cases} \qquad a = -2$
+ 2) segundo ejercicio = $f(x) = \begin{cases} 2^x & \text{si } x \leqslant 1 \\ 3 - x & \text{si } 1 < x \leqslant 4 \\ \sqrt{x} & \text{si } x > 4 \end{cases}$
+3) tercer ejercicio ¿Para qué valor de la constante $c$ la función $f$ es continua en $(-\infty, \infty)$?
+$$f(x) = \begin{cases} cx^2 + 2x & \text{si } x < 2 \\ x^3 - cx & \text{si } x \geqslant 2 \end{cases}$$
+
+Dentro del nombre del segundo reino (cañon de la Derivada por definición), las misiones 1,2,3 corresponderán a los ejercicios que te dejare ahora 
+1) primer ejercicio = Encuentre la ecuación de la recta tangente a la curva en el punto dado:
+$$y = \sqrt{x}, \qquad (1, 1)$$
+ 2) segundo ejercicio = Encuentre la derivada de la función usando la definición de derivada. Indique los dominios de la función y de su derivada: $$f(x) = 4 + 8x - 5x^2$$
+3) tercer ejercicio =Dada la función $f(t) = 5t^2 + 8t - 4$, que describe la posición (en metros) de un objeto que se mueve en línea recta con respecto al tiempo (en segundos), halle: La velocidad y la aceleración en el instante $t = 4\text{ segundos.}$
+
+Dentro del nombre del 3 reino ( abismo de las Reglas de derivación), las misiones 1,2,3 corresponderán a las ejercicios que te dejare ahora
+1) primer ejercicio = Derive la siguiente función: $$h(t) = \sqrt[4]{t} - 4e^t$$
+2) segundo ejercicio = Derive la siguiente función: $$y = \frac{x^2 + 1}{x^3 - 1}$$
+3) tercer ejercicio = Hallar la derivada de: $$g(x) = \sqrt{x} \cot x$$
+
+Dentro del nombre del 4 reino ( torres de la Regla de la cadena y derivación implícita) las misiones 1,2,3 corresponderán a los ejercicios que te dejare ahora 
+1) primer ejercicio  = Obtenga la derivada de la siguiente función: $$f(x) = (2x - 3)^4(x^2 + x + 1)^5$$
+2) segundo ejercicio = Hallar la derivada de la siguiente función: $$l(x) = \cot(x \cos 2x)$$
+3) tercer ejercicio = Encuentre $dy/dx$ por derivación implícita: $$x^3 - xy^2 + y^3 = 1$$
+
+Dentro del nombre del 5 reino ( montaña de  las Inversas y logaritmos ) las misiones 1,2,3 corresponderán a los ejercicios que te dejare 
+ahora
+1) primer ejercicio = Determine la derivada de la siguiente función. Simplifique donde sea posible: $$y = \tan^{-1}\sqrt{x}$$
+2) segundo ejercicio = Derive la función: $$g(x) = \ln\left(x\sqrt{x^2 - 1}\right)$$
+3) tercer ejercicio = Calcular la derivada de la siguiente función: $$y = \left(e^{x^2} + 1\right)^x$$
+
+Asegurate de que la información actualizada dentro de la misiones  sea  compatible y consistente con la sección de misiones, por lo que debeactualizar en formación de acada uno de las secciones y de las misiones con la información necesario para resolver el ejercicio (preservando la misma estructura) Selecciona Reino del Cálculo:
+1 Reinos Disponibles
+
+01. Valle de las Funciones
+
+02. Cañón de los Límites
+
+03. Abismo de la Continuidad
+
+04. Torres de las Asíntotas
+
+05. Montaña de las Derivadas
+
+06. Fortaleza de las Aplicaciones
+
+Misión 1
+
+Misión 2
+
+Misión 3
+Valle de las Funciones
+·
+Descubre los valores admisibles para evitar la anomalía matemática
+Misión 1: Dominio y Restricciones Algebraicas
++100 XP Recompensa
+1. Fundamento Teórico & Conceptos Clave
+El dominio de una función f es el conjunto de todos los valores reales de x para los cuales la expresión f(x) está bien definida en los números reales.
+
+División por Cero
+Si f(x) = P(x) / Q(x), entonces Q(x) ≠ 0. El denominador nunca puede anularse.
+Raíces de Índice Par
+Si f(x) = ⁿ√g(x) con n par (2, 4, ...), el radicando debe ser no negativo: g(x) ≥ 0.
+Argumento Logarítmico
+Si f(x) = ln(g(x)), el argumento debe ser estrictamente positivo: g(x) > 0.
+Fórmulas y Teoremas Fundamentales:
+Condición Racional
+Q(x) \neq 0
+Los ceros del denominador se excluyen del dominio: Dom(f) = ℝ \ {x | Q(x) = 0}
+Condición de Radical Par
+g(x) \ge 0
+El interior de una raíz cuadrada debe ser mayor o igual a cero en ℝ.
+Consejo del Archimago: Al combinar una raíz par en el denominador f(x) = 1 / √(g(x)), la condición se vuelve estrictamente mayor que cero: g(x) > 0.
+2. Ejemplo Resuelto Paso a Paso
+Problema Modelo:
+Determinar el dominio analítico de la función: f(x) = √(2x - 6) / (x - 5)
+Esta función combina dos restricciones: un radical de índice par en el numerador y un denominador que no puede anularse.
+1
+Restricción del radical par (numerador)
+2x - 6 \ge 0 \implies 2x \ge 6 \implies x \ge 3
+El radicando debe ser no negativo para que el resultado pertenezca a los reales.
+2
+Restricción del denominador racional
+x - 5 \neq 0 \implies x \neq 5
+La división entre cero es una operación indefinida en el cuerpo de los números reales.
+3
+Intersección de las condiciones
+Dom(f) = [3, \infty) \cap (\mathbb{R} \setminus \{5\}) = [3, 5) \cup (5, \infty)
+Ambas condiciones deben cumplirse simultáneamente.
+Resultado Final: Dom(f) = [3, 5) ∪ (5, ∞)
+Recuerda que el corchete [ incluye el valor 3 porque la raíz de cero es cero, pero el paréntesis ) en 5 indica que se excluye.
+3. Laboratorio Gráfico Interactivo
+🏛️ Observatorio Asintótico:
+f(x) = (2x + 1) / (x - 2)
+Observa el comportamiento infinito alrededor del polo vertical y en los horizontes asintóticos.
+
+Cerca del Polo (x → 2⁺)
+Al Infinito (x → ∞)
+Asíntota Horizontal: y = 2
+Asíntota Vertical: x = 2
+Posición de x:
+3.50
+
+Coordenada Actual: (3.50, 5.33)
+Distancia al límite horizontal y=2: 3.333
+4. Desafío Práctico Interactivo
+Intentos realizados: 0
+¿Cuál es el dominio exacto de la función g(x) = √(16 - x²) / (x - 2)?
+g(x) = \frac{\sqrt{16 - x^2}}{x - 2}
+
+a
+[-4, 4]
+
+b
+[-4, 2) ∪ (2, 4]
+
+c
+(-∞, -4] ∪ [4, ∞)
+
+d
+(-4, 2) ∪ (2, 4)
+Registro de Procedimiento para tu Bitácora (Opcional):
+Anota tu procedimiento o fórmula utilizada para archivarlo en tu Bitácora Académica...
+
+Reflexión o error que aprendiste a evitar en este ejercicio...
+
+Verificar Respuesta
+
+Solicitar Pista
