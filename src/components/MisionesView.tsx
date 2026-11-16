@@ -22,6 +22,7 @@ import { CriticalPointsSimulator } from './simulators/CriticalPointsSimulator';
 import { AsymptoteExplorerSimulator } from './simulators/AsymptoteExplorerSimulator';
 import { MathBlock, MathText } from './MathView';
 import { MandatoryVideoPlayer } from './MandatoryVideoPlayer';
+import { VIDEO_LINKS_MAP } from '../data/videoLinks';
 
 export const MisionesView: React.FC = () => {
   const {
@@ -602,8 +603,7 @@ export const MisionesView: React.FC = () => {
               <MandatoryVideoPlayer
                 missionId={activeMission.id}
                 title={activeMission.videoTitle || `Explicación de ${activeMission.title}`}
-                videoUrl={activeMission.videoUrl}
-                driveRedirectUrl={VIDEO_LINKS_MAP[activeMission.id]?.driveUrl || `/api/videos/${activeMission.id}/redirect`}
+                youtubeId={VIDEO_LINKS_MAP[activeMission.id]?.youtubeId}
                 durationHint={activeMission.videoDuration}
                 alreadyWatched={isVideoWatched}
                 isExerciseCorrect={isCompleted}

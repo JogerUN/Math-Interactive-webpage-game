@@ -77,8 +77,6 @@ export interface Mission {
   title: string;
   subtitle: string;
   xpReward: number;
-  videoUrl: string;
-  youtubeVideoUrl?: string;
   videoTitle?: string;
   videoDuration?: string;
   theory: {

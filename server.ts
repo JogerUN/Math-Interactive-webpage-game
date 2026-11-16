@@ -62,14 +62,14 @@ async function startServer() {
   // List all configured video endpoints per mission
   app.get('/api/videos', (_req: Request, res: Response) => {
     const items = Object.values(VIDEO_LINKS_MAP).map((item) => {
-      const envKey = `DRIVE_VIDEO_${item.missionId.toUpperCase().replace(/-/g, '_')}`;
-      const effectiveDriveUrl =
-        runtimeDriveOverrides[item.missionId] || process.env[envKey] || item.driveUrl;
+      const envKey = `YOUTUBE_VIDEO_${item.missionId.toUpperCase().replace(/-/g, '_')}`;
+      const effectiveYtId =
+        runtimeDriveOverrides[item.missionId] || process.env[envKey] || item.youtubeId || '';
 
       return {
         ...item,
-        driveUrl: effectiveDriveUrl,
-        redirectEndpoint: `/api/videos/${item.missionId}/redirect`,
+        youtubeId: effectiveYtId,
+        youtubeUrl: effectiveYtId ? `https://www.youtube.com/watch?v=${effectiveYtId}` : null,
       };
     });
     res.json({ videos: items });
@@ -83,65 +83,38 @@ async function startServer() {
       res.status(404).json({ error: `Misión "${missionId}" no encontrada.` });
       return;
     }
-    const envKey = `DRIVE_VIDEO_${missionId.toUpperCase().replace(/-/g, '_')}`;
-    const effectiveDriveUrl =
-      runtimeDriveOverrides[missionId] || process.env[envKey] || config.driveUrl;
+    const envKey = `YOUTUBE_VIDEO_${missionId.toUpperCase().replace(/-/g, '_')}`;
+    const effectiveYtId =
+      runtimeDriveOverrides[missionId] || process.env[envKey] || config.youtubeId || '';
 
     res.json({
       ...config,
-      driveUrl: effectiveDriveUrl,
-      redirectEndpoint: `/api/videos/${missionId}/redirect`,
+      youtubeId: effectiveYtId,
+      youtubeUrl: effectiveYtId ? `https://www.youtube.com/watch?v=${effectiveYtId}` : null,
     });
   });
 
-  // Endpoint to redirect directly to the Google Drive video URL for a mission
-  app.get('/api/videos/:missionId/redirect', (req: Request, res: Response) => {
+  // Optional endpoint to update a mission's video at runtime
+  app.put('/api/videos/:missionId/video-link', apiRateLimiter, (req: Request, res: Response) => {
     const missionId = String(req.params.missionId || '');
-    const config = VIDEO_LINKS_MAP[missionId];
-
-    if (!config) {
-      res.status(404).json({ error: `No existe configuración de video para la misión "${missionId}".` });
-      return;
-    }
-
-    const envKey = `DRIVE_VIDEO_${missionId.toUpperCase().replace(/-/g, '_')}`;
-    const targetDriveUrl =
-      runtimeDriveOverrides[missionId] || process.env[envKey] || config.driveUrl;
-
-    if (!targetDriveUrl || !targetDriveUrl.startsWith('https://')) {
-      res.status(400).json({ error: 'La URL de redirección a Google Drive no es válida.' });
-      return;
-    }
-
-    res.redirect(302, targetDriveUrl);
-  });
-
-  // Optional endpoint to update a mission's Drive link at runtime
-  app.put('/api/videos/:missionId/drive-link', apiRateLimiter, (req: Request, res: Response) => {
-    const missionId = String(req.params.missionId || '');
-    const { driveUrl } = req.body as { driveUrl?: string };
+    const { youtubeId } = req.body as { youtubeId?: string };
 
     if (!VIDEO_LINKS_MAP[missionId]) {
       res.status(404).json({ error: `Misión "${missionId}" no encontrada.` });
       return;
     }
 
-    if (
-      typeof driveUrl !== 'string' ||
-      (!driveUrl.startsWith('https://drive.google.com/') &&
-        !driveUrl.startsWith('https://docs.google.com/'))
-    ) {
+    if (typeof youtubeId !== 'string' || !youtubeId.trim()) {
       res.status(400).json({
-        error: 'Proporciona un enlace válido de Google Drive (https://drive.google.com/...).',
+        error: 'Proporciona un ID o URL válido de YouTube.',
       });
       return;
     }
 
-    runtimeDriveOverrides[missionId] = driveUrl;
+    runtimeDriveOverrides[missionId] = youtubeId.trim();
     res.json({
       missionId,
-      driveUrl,
-      redirectEndpoint: `/api/videos/${missionId}/redirect`,
+      youtubeId: youtubeId.trim(),
     });
   });
 
