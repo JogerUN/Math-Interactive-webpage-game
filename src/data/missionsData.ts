@@ -21,8 +21,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 1: Continuidad Racional en un Punto Singular',
         subtitle: 'Diagnóstico de continuidad y límites infinitos en $a = -2$',
         xpReward: 100,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Fcont-1.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_CONT_1/view?usp=sharing',
         videoTitle: 'Video Explicativo: Continuidad Racional y Límites Infinitos',
         videoDuration: '01:40',
         theory: {
@@ -120,8 +118,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 2: Continuidad de Funciones a Trozos en Múltiples Fronteras',
         subtitle: 'Evaluación de saltos y fronteras en $x = 1$ y $x = 4$',
         xpReward: 120,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Fcont-2.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_CONT_2/view?usp=sharing',
         videoTitle: 'Video Explicativo: Continuidad en Funciones a Trozos',
         videoDuration: '01:55',
         theory: {
@@ -216,8 +212,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 3: Parámetros de Continuidad: Problemas "Halle c / Halle k"',
         subtitle: 'Cálculo del parámetro para garantizar continuidad global en todo $\\mathbb{R}$',
         xpReward: 140,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Fcont-3.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_CONT_3/view?usp=sharing',
         videoTitle: 'Video Explicativo: Cálculo de Parámetros c y k para Continuidad',
         videoDuration: '01:45',
         theory: {
@@ -316,8 +310,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 1: Recta Tangente a una Curva en un Punto Dado',
         subtitle: 'Pendiente geométrica y ecuación punto-pendiente para $y = \\sqrt{x}$ en $(1, 1)$',
         xpReward: 130,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Fder-def-1.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_DER_DEF_1/view?usp=sharing',
         videoTitle: 'Video Explicativo: Recta Tangente en un Punto Dado',
         videoDuration: '01:30',
         theory: {
@@ -416,8 +408,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 2: Derivada por Definición Formal de Límite y Dominios',
         subtitle: 'Cociente incremental infinitesimal y análisis de dominios para $f(x) = 4 + 8x - 5x^2$',
         xpReward: 150,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Fder-def-2.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_DER_DEF_2/view?usp=sharing',
         videoTitle: 'Video Explicativo: Derivada por Definición de Límite',
         videoDuration: '01:50',
         theory: {
@@ -512,8 +502,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 3: Cinemática: Razón de Cambio, Velocidad y Aceleración',
         subtitle: 'Derivadas sucesivas de la posición para $f(t) = 5t^2 + 8t - 4$ en $t = 4\\text{ s}$',
         xpReward: 160,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Fder-def-3.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_DER_DEF_3/view?usp=sharing',
         videoTitle: 'Video Explicativo: Cinemática, Velocidad y Aceleración',
         videoDuration: '01:35',
         theory: {
@@ -622,8 +610,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 1: Reglas de Potencias y Exponenciales Básicas',
         subtitle: 'Derivación de raíces fraccionarias y múltiplos de $e^t$ para $h(t) = \\sqrt[4]{t} - 4e^t$',
         xpReward: 140,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Freg-1.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_REG_1/view?usp=sharing',
         videoTitle: 'Video Explicativo: Potencias Fraccionarias y Exponenciales',
         videoDuration: '01:25',
         theory: {
@@ -721,8 +707,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 2: La Regla del Cociente para Funciones Racionales',
         subtitle: 'Desarrollo algebraico riguroso de $(u/v)\' = \\frac{u\'v - uv\'}{v^2}$ para $y = \\frac{x^2 + 1}{x^3 - 1}$',
         xpReward: 160,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Freg-2.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_REG_2/view?usp=sharing',
         videoTitle: 'Video Explicativo: Regla del Cociente Paso a Paso',
         videoDuration: '01:45',
         theory: {
@@ -816,8 +800,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 3: Regla del Producto con Funciones Trigonométricas',
         subtitle: 'Combinación de radicales algebraicos y cotangente para $g(x) = \\sqrt{x} \\cot x$',
         xpReward: 180,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Freg-3.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_REG_3/view?usp=sharing',
         videoTitle: 'Video Explicativo: Producto con Funciones Trigonométricas',
         videoDuration: '01:40',
         theory: {
@@ -920,8 +902,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 1: Cadena Combinada con Regla del Producto',
         subtitle: 'Factorización de factores comunes tras derivar $f(x) = (2x - 3)^4 (x^2 + x + 1)^5$',
         xpReward: 180,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Fcad-1.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_CAD_1/view?usp=sharing',
         videoTitle: 'Video Explicativo: Regla de la Cadena y Factorización',
         videoDuration: '01:55',
         theory: {
@@ -1015,8 +995,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 2: Cadena con Funciones Trigonométricas Compuestas',
         subtitle: 'Derivación anidada con argumento en producto para $l(x) = \\cot(x \\cos 2x)$',
         xpReward: 190,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Fcad-2.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_CAD_2/view?usp=sharing',
         videoTitle: 'Video Explicativo: Regla de la Cadena Anidada en Trigonométricas',
         videoDuration: '01:50',
         theory: {
@@ -1110,8 +1088,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 3: Técnica de Derivación Implícita',
         subtitle: 'Despeje de $\\frac{dy}{dx}$ en $x^3 - xy^2 + y^3 = 1$',
         xpReward: 200,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Fcad-3.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_CAD_3/view?usp=sharing',
         videoTitle: 'Video Explicativo: Derivación Implícita Completa',
         videoDuration: '01:55',
         theory: {
@@ -1221,8 +1197,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 1: Derivadas de Funciones Trigonométricas Inversas',
         subtitle: 'Derivación de arcotangente con argumento radical para $y = \\tan^{-1}(\\sqrt{x})$',
         xpReward: 200,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Finv-1.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_INV_1/view?usp=sharing',
         videoTitle: 'Video Explicativo: Derivada de Trigonométricas Inversas',
         videoDuration: '01:35',
         theory: {
@@ -1316,8 +1290,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 2: Propiedades de Logaritmos antes de Derivar',
         subtitle: 'Descomposición logarítmica para simplificar $g(x) = \\ln(x \\sqrt{x^2 - 1})$',
         xpReward: 220,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Finv-2.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_INV_2/view?usp=sharing',
         videoTitle: 'Video Explicativo: Propiedades de Logaritmos al Derivar',
         videoDuration: '01:45',
         theory: {
@@ -1411,8 +1383,6 @@ export const WORLDS_DATA: World[] = [
         title: 'Misión 3: Técnica de Derivación Logarítmica',
         subtitle: 'Derivación de potencias $f(x)^{g(x)}$ para $y = (e^{x^2} + 1)^x$',
         xpReward: 250,
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/mathquest-calculo.appspot.com/o/videos%2Finv-3.mp4?alt=media',
-        youtubeVideoUrl: 'https://drive.google.com/file/d/REEMPLAZAR_ID_INV_3/view?usp=sharing',
         videoTitle: 'Video Explicativo: Derivación Logarítmica Avanzada',
         videoDuration: '02:00',
         theory: {
